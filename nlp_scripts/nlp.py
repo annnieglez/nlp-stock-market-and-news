@@ -16,12 +16,14 @@ stop_words.remove('not')
 # Data  folder paths
 # Data folders
 base_folder = os.path.join(os.path.dirname(__file__), 'data')
-embeddings_folder = os.path.join(base_folder, 'embeddings')
-sentiments_folder = os.path.join(base_folder, 'sentiments')
+
+embeddings_folder = os.path.join(base_folder, "..", 'data/embeddings')
+sentiments_folder = os.path.join(base_folder, "..", 'data/sentiments')
 
 # Ensure the folders exist
 os.makedirs(embeddings_folder, exist_ok=True)
 os.makedirs(sentiments_folder, exist_ok=True)
+
 
 def load_dataframes_news_from_folder(folder_path, startswith = 'combined_cleaned_dataframe_', key_place = 3, endswith = '.csv'):
     """

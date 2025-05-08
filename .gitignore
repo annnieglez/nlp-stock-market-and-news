@@ -13,3 +13,6 @@ __pycache__/
 
 # Ignore metadata folder created by setup tools during package installation
 *.egg-info/
+
+# Ignore environment files
+.env

@@ -12,6 +12,12 @@ import re
 import os
 from collections import defaultdict
 
+# Data folders
+base_folder = os.path.join(os.path.dirname(__file__), 'data')
+cleaned_folder = os.path.join(base_folder, 'data_cleaned')
+
+# Ensure the folders exist
+os.makedirs(cleaned_folder, exist_ok=True)
 
 # ==============================
 # Data Cleaning Functions

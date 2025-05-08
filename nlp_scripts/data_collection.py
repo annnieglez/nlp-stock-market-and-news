@@ -26,6 +26,14 @@ from tqdm.notebook import tqdm
 from datetime import datetime, timedelta
 import yfinance as yf
 
+# Data folders
+# Define the paths
+base_folder = os.path.join(os.path.dirname(__file__), 'data')
+sub_folder = os.path.join(base_folder, 'data_to_clean')
+
+# Ensure the folders exist
+os.makedirs(sub_folder, exist_ok=True)
+
 # ==============================
 # Data Collection Functions
 # ==============================

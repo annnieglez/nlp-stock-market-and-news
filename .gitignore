@@ -16,3 +16,8 @@ __pycache__/
 
 # Ignore environment files
 .env
+
+#CSV files
+/data/data_cleaned/*.csv
+data/embeddings/*.csv
+/data/sentiments/*.csv

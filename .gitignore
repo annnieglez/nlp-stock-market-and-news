@@ -19,5 +19,5 @@ __pycache__/
 
 #CSV files
 /data/data_cleaned/*.csv
-data/embeddings/*.csv
+/data/embeddings/*.csv
 /data/sentiments/*.csv

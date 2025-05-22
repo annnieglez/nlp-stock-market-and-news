@@ -1,4 +1,4 @@
-# 🧠 Fake News Detection in News Headlines – NLP, Sentiment, & Embeddings
+# 🧠 Fake News Detection in News Headlines
 
 ## Overview
 
